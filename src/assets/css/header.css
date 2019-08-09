@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100vw;
-    position: static;
+    position: fixed;
 }
 
 .header ul{
@@ -38,5 +38,15 @@
     border: none;
     font-size: 20px;
     cursor: pointer;
+}
+
+@media (max-width: 1280px) 
+{
+    .address{
+        display: none;
+    }
+    .fone{
+        font: 16px;
+    }
 }
 
