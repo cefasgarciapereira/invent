@@ -1,0 +1,42 @@
+.header {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    position: static;
+}
+
+.header ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+.header ul li{
+    margin: 0 20px;
+}
+
+.dash{
+    background-color: #026CB4;
+    height: 1px;
+    width: 30px;
+}
+
+.header i {
+    color: #026CB4;
+    cursor: pointer;
+}
+
+.address, .fone{
+    font-size: 12px;
+}
+
+.header button{
+    background: #FFF;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
