@@ -158,10 +158,20 @@
 }
 
 
-
-
 @media (max-width: 1280px) 
-{
+{   
+    h2{
+        font-size: 42px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    p{
+        font-size: 28px !important;
+    }
+
     .top-left ul{
         padding: 15% 0 0 50%;
         text-transform: uppercase;
@@ -174,5 +184,47 @@
     .top-right{
         background-position: center;
     }    
+
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 100px 0;
+        width: auto;
+
+    }
+ 
+    .content-left{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        height: auto;
+        
+    }
+
+    .content-left p{
+        text-align: justify;
+    }
+
+    .content-left ul li{
+        font-size: 28px;    
+
+    }
+
+    #i-left{
+        font-size: 32px;
+    }
+
+    .content-right{
+        border: solid 1px #ccc;
+        border-radius: 4px;
+        display: flex;
+        width: 100%;    
+    }
+    .content-right ul li{
+        font-size: 28px;    
+    }
 }
 
