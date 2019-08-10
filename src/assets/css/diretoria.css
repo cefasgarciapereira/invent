@@ -13,11 +13,13 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+
 }
 
 .title h2{
     text-transform: uppercase;
-    margin-bottom: 20px;
 }
 
 .title img{
