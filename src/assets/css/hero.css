@@ -89,8 +89,8 @@
 }
 
 .content-left p{
-    color: #888;
-    font-weight: 100;
+    color: #333;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -152,8 +152,8 @@
 
 .content-right ul li{
     margin-top: 20px;
-    color: #888;
-    font-weight: 100;
+    color: #333;
+    font-weight: 300;
     font-size: 14px;
 }
 
