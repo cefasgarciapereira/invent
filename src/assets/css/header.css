@@ -5,6 +5,9 @@
     justify-content: center;
     width: 100vw;
     position: fixed;
+    z-index: 100;
+    background: #FFF;
+
 }
 
 .header ul{
@@ -26,6 +29,11 @@
 
 .header i {
     color: #026CB4;
+}
+
+.header i:hover{
+    color: #00A7FF;
+    transition: all 0.2s;
     cursor: pointer;
 }
 

@@ -10,12 +10,17 @@
     flex-direction: row;
 }
 
+.top div{
+    margin: 0 -20px;
+}
+
 .top-left{
     background: #026CB4;
     height: 90%;
-    width: 45%;
+    width: 45vw;
     z-index: 2;
     color:#fff;
+    position: relative;
 }
 
 .top-left ul{
@@ -25,8 +30,10 @@
 
 .dash-pink {
     background-color: #FF6A6A;
-    height: 10px;
+    height: 5px;
     width: 100px;
+    margin-bottom: 40px;
+
 }
 
 .top-left i{
@@ -48,9 +55,110 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    width: 60%;
+    width: 60vw;
     z-index: 1;
+    position: relative;
 }
+
+.hero-content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.hero-content {
+    padding: 30px;
+}
+
+.content-left{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 20vw;
+    max-width: 32vw;
+}
+
+.content-left h2{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #026CB4;
+}
+
+.content-left p{
+    color: #888;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.content-left ul{
+    margin-top: 20px;
+}
+
+.content-left ul li{
+    margin-top: 20px;
+    color: #026CB4;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;    
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    max-width: 300px;
+}
+
+.content-left ul li:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#i-left{
+    color: #00A7FF;
+    font-size: 20px;
+}
+
+#chevron {
+    color: #FF6A6A;    
+}
+
+.content-right{
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    max-width: 32vw;
+
+}
+
+.content-right h3{
+    color: #026CB4;
+    text-transform: uppercase;
+}
+
+.content-right p{
+    color: #00A7FF;
+    margin-top: 20px;
+}
+
+.content-right ul{
+    margin-top: 20px;
+}
+
+.content-right ul li{
+    margin-top: 20px;
+    color: #888;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+
+
 
 @media (max-width: 1280px) 
 {
@@ -58,8 +166,13 @@
         padding: 15% 0 0 50%;
         text-transform: uppercase;
     }
+    
+    .top div{
+        margin: 0 0px;
+    }
 
     .top-right{
         background-position: center;
     }    
 }
+
