@@ -1,0 +1,96 @@
+.aniversariantes{
+    background: #F5F5F5;
+    height: 88vh;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.aniversariantes h2{
+    text-transform: uppercase;
+    color: #315AB2;
+    margin-bottom: 20px;
+}
+
+.aniversariantes p{
+    color: #315AB2;
+}
+
+.month {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #315AB2;
+    font-weight: bold;
+}
+
+.month img{
+    margin-right: 10px;
+}
+
+#chevron-date{
+    margin: 0 10px;
+    color: #315AB2;
+}
+
+.birthdays ul li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+    color: #000;
+    float:left;
+    margin: 10px 10px 10px 10px;
+    padding:0px 0px 0px 0px;
+
+}
+
+.date{
+    color: #FF6A6A;
+    font-weight: 100;
+    font-size: 42px;
+    margin: 0 20px;
+}
+
+.birthdays .formation{
+    font-size: 10px;
+    color: #333;
+}
+
+@media (max-width: 1280px) 
+{   
+    .aniversariantes h2{
+        height: 200px;
+    }
+    
+    .aniversariantes p{
+      width: 100%;
+      height: 200px;
+    }
+
+    .month{
+        font-size: 32px;
+    }
+
+    .birthdays ul li{
+        padding: 10px;
+        width: 100%;
+        height: 15vh;
+        color: #000;
+        float:left;
+        margin: 10px 10px 10px 10px;
+        padding:0px 0px 0px 0px;
+    }
+}
