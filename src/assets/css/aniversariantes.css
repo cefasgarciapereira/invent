@@ -76,11 +76,15 @@
 
 @media (max-width: 1280px) 
 {   
-    .aniversariantes h2{
-        height: 200px;
-        align-content: center;
-        justify-content: center;
+    .aniversariantes{
+        margin-top: 100px;
         align-items: center;
+        justify-content: center;
+        align-content: center;
+        height: 150vh;
+    }
+    .aniversariantes h2{
+        font-size: 62px;
     }
     
     .aniversariantes p{
@@ -92,6 +96,10 @@
         font-size: 32px;
     }
 
+    .month img{
+        display: none;
+    }
+
     .birthdays ul li{
         padding: 10px;
         width: 100%;
@@ -100,5 +108,9 @@
         float:left;
         margin: 10px 10px 10px 10px;
         padding:0px 0px 0px 0px;
+    }
+
+    .date{
+        font-size: 100px !important;
     }
 }
