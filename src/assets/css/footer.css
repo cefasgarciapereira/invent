@@ -50,6 +50,11 @@ footer{
     margin: 0 5px;
 }
 
+.social-networks-footer li i:hover{
+    cursor: pointer;
+    color: #00A7FF;
+}
+
 .footer-end{
     list-style: none;
     display: grid;
@@ -72,6 +77,14 @@ footer{
     align-content: center;
     align-items: center;
     justify-content: center;
+    height: 30px;
+    overflow: hidden;
+}
+
+.contact:hover{
+    transform: translateY(-5px);
+    transition: all 0.2s;
+    cursor: pointer;
 }
 
 .contact i{

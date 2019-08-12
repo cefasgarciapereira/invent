@@ -39,6 +39,11 @@
     color: #315AB2;
 }
 
+#chevron-date:hover{
+    color: #000072;   
+    cursor: pointer; 
+}
+
 .birthdays ul li{
     display: flex;
     flex-direction: row;
