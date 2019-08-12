@@ -1,6 +1,6 @@
 .hero {
     width: 100vw;
-    height: 100vh;
+    height: 210vh;
 }
 
 .top{
@@ -78,7 +78,7 @@
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    height: 20vw;
+    height: 40vh;
     max-width: 32vw;
 }
 
@@ -160,21 +160,40 @@
 
 @media (max-width: 1280px) 
 {   
-    h2{
-        font-size: 42px;
+
+    .top{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+
     }
 
-    h3{
-        font-size: 30px;
+    .top-left{
+        width: 100vw;
+        height: 70vh;
     }
 
-    p{
-        font-size: 28px !important;
+    .top-left{
+        width: 100vw;
+        height: 70vh;
     }
-
+    
     .top-left ul{
-        padding: 15% 0 0 50%;
+        padding: 25% 0 0 10%;
         text-transform: uppercase;
+    }
+
+    .top-left ul h1{
+        font-size: 84px;
+    }
+
+    .top-left ul li{
+        font-size: 42px;
+        height: 90%;
+        width: 45vw;
+        z-index: 2;
+        color:#fff;
+        position: relative;        
     }
     
     .top div{
@@ -183,25 +202,36 @@
 
     .top-right{
         background-position: center;
+        height: 30vh;
+        width: 100vw;
+        z-index: 1;
+        position: relative;
     }    
+
+    .hero {
+        width: 100vw;
+        height: auto !important;
+    }
 
     .hero-content{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 100px 0;
-        width: auto;
+        padding: 0;
+        width: 100vw;
 
     }
  
     .content-left{
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        height: auto;
-        
+        height: 35vh;
+        max-width: 80vw;
+        padding: 100px 0;
+        justify-content: flex-start;
+    }
+
+    .content-left h2{
+        font-size: 70px;
     }
 
     .content-left p{
@@ -209,22 +239,28 @@
     }
 
     .content-left ul li{
-        font-size: 28px;    
-
+        font-size: 42px;    
+        max-width: 800px;
     }
 
     #i-left{
-        font-size: 32px;
+        font-size: 42px;
     }
 
     .content-right{
         border: solid 1px #ccc;
         border-radius: 4px;
         display: flex;
-        width: 100%;    
+        height: 40vh;
+        max-width: 80vw;  
+        padding: 100px 30px;
+        justify-content: flex-start;
+        align-items: center;
+
     }
+
     .content-right ul li{
-        font-size: 28px;    
+        font-size: 42px;    
     }
 }
 

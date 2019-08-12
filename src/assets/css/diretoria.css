@@ -108,17 +108,48 @@
 
 @media (max-width: 1280px) 
 {   
+    .diretoria{
+        margin-top: 100px;
+        align-items: center;
+    }
+
+    .diretoria p{
+        height: 30%;
+    }
+
     .title{
         height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
     }
+
+    .title h2{
+        font-size: 84px !important;
+    }
+
+    .title img{
+        display: none;
+    }
+
     .functions{
-      width: 100%;
+      width: 200vw;
       height: 200px;
+      overflow: auto;
+      overflow-x: scroll; 
+      padding:  0 2000px;  
     }
 
     .functions ul{
         height: 100%;
     }
+
+    .functions  li{
+        font-size: 32px;
+        width: 300px;
+        text-align: center;
+    }
+
     .members ul li{
         padding: 10px;
         width: 100%;

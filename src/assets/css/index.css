@@ -13,3 +13,23 @@ html, body, #root{
 body, input, button{
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 1280px) 
+{   
+     h1{
+        font-size: 84px;
+    }
+
+     h2{
+        font-size: 42px;
+    }
+
+    h3{
+        font-size: 42px;
+    }
+
+    p{
+        font-size: 42px !important;
+    }
+
+}
