@@ -114,7 +114,8 @@
     }
 
     .diretoria p{
-        height: 30%;
+        font-size: 32px;
+        height: 10%;
     }
 
     .title{
@@ -125,7 +126,7 @@
     }
 
     .title h2{
-        font-size: 84px !important;
+        font-size: 62px;
     }
 
     .title img{

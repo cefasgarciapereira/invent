@@ -49,12 +49,27 @@
 }
 
 @media (max-width: 1280px) 
-{
-    .address{
-        display: none;
+{   
+    .header{
+        height: 10vh;
     }
-    .fone{
-        font: 16px;
+
+    .header img{
+        width: 200%;
+    }
+    .logo{
+        width: fit-content;
+    }
+
+    .social-networks, .fone{
+        font-size: 32px;
+    }
+
+    .header button{
+        font-size: 48px;
+    }
+    .address, .dash{
+        display: none;
     }
 }
 

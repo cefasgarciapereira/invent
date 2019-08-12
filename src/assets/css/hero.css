@@ -184,11 +184,11 @@
     }
 
     .top-left ul h1{
-        font-size: 84px;
+        font-size: 60px;
     }
 
     .top-left ul li{
-        font-size: 42px;
+        font-size: 32px;
         height: 90%;
         width: 45vw;
         z-index: 2;
@@ -231,15 +231,15 @@
     }
 
     .content-left h2{
-        font-size: 70px;
+        font-size: 62px;
     }
 
     .content-left p{
         text-align: justify;
+        font-size: 24px;
     }
 
     .content-left ul li{
-        font-size: 42px;    
         max-width: 800px;
     }
 
@@ -260,7 +260,7 @@
     }
 
     .content-right ul li{
-        font-size: 42px;    
+        font-size: 24px;    
     }
 }
 
