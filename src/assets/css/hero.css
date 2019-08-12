@@ -1,6 +1,6 @@
 .hero {
     width: 100vw;
-    height: 210vh;
+    height: 100vh;
 }
 
 .top{
@@ -160,6 +160,9 @@
 
 @media (max-width: 1280px) 
 {   
+    .hero{
+        height: 210vh;
+    }
 
     .top{
         display: flex;

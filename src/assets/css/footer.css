@@ -106,6 +106,10 @@ footer{
     .footer-end{
         grid-gap: 50px;
     }
+
+    .footer-end p{
+        font-size: 24px;
+    }
     
 
 }
