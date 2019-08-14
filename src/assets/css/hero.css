@@ -174,32 +174,14 @@
         width: 100vw;
         height: 70vh;
     }
-
-    .top-left{
-        width: 100vw;
-        height: 70vh;
-    }
     
     .top-left ul{
-        padding: 25% 0 0 10%;
+        padding: 20px 0 0 30px;
         text-transform: uppercase;
-    }
-
-    .top-left ul h1{
-        font-size: 60px;
-    }
-
-    .top-left ul li{
-        font-size: 32px;
-        height: 90%;
-        width: 45vw;
-        z-index: 2;
-        color:#fff;
-        position: relative;        
     }
     
     .top div{
-        margin: 0 0px;
+        margin: 0 0;
     }
 
     .top-right{
@@ -209,11 +191,6 @@
         z-index: 1;
         position: relative;
     }    
-
-    .hero {
-        width: 100vw;
-        height: auto !important;
-    }
 
     .hero-content{
         display: flex;
@@ -226,43 +203,25 @@
     }
  
     .content-left{
-        height: 35vh;
+        height: 50vh;
         max-width: 80vw;
         padding: 100px 0;
         justify-content: flex-start;
     }
 
-    .content-left h2{
-        font-size: 62px;
-    }
-
     .content-left p{
         text-align: justify;
-        font-size: 24px;
-    }
-
-    .content-left ul li{
-        max-width: 800px;
-    }
-
-    #i-left{
-        font-size: 42px;
     }
 
     .content-right{
         border: solid 1px #ccc;
         border-radius: 4px;
+        height: 60vh;
+        max-width: 80vw;
         display: flex;
-        height: 40vh;
-        max-width: 80vw;  
-        padding: 100px 30px;
         justify-content: flex-start;
         align-items: center;
-
-    }
-
-    .content-right ul li{
-        font-size: 24px;    
+        padding: 10px;
     }
 }
 
