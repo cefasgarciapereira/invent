@@ -1,5 +1,4 @@
 # Invent
-
 This project was a selection process for an advertising company. The project consisted of implementing a landing page that was sent as an image. Therefore, it has no functionality, only the aesthetic implementation of the prototype.
 
 ## Running
